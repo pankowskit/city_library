@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { BooksRoutingModule } from './books-routing.module';
 import { BooksComponent } from './books/books.component';
+import { BooksSidebarComponent } from './books-sidebar/books-sidebar.component';
+import { BooksListComponent } from './books-list/books-list.component';
 
 
 @NgModule({
   declarations: [
-    BooksComponent
+    BooksComponent,
+    BooksSidebarComponent,
+    BooksListComponent
   ],
   imports: [
     CommonModule,

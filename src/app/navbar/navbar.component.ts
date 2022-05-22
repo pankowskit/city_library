@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  navbarExt:string = "show";
+
+  @Input() Menu:Array<any>=[];
+
+  toggleMenu(){
+    this.navbarExt = (this.navbarExt==="show")?"":"show";
+  }
 
   constructor() { }
 
