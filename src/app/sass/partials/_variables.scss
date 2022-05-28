@@ -1,12 +1,36 @@
-$prefix: "../img/";
-$img__comingsoon: $prefix+"comingsoon.jpg"; 
-$img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$prefix: "../../../assets/img/";
+$bg__about-img: 
+    $prefix+"about/about-s1.jpg",
+    $prefix+"about/about-s2.jpg", 
+    $prefix+"about/about-s3.jpg";
+$bg__blog-img: $prefix+"blog/blog-s1.jpg";
+$bg__books-img: $prefix+"books/books-s1.jpg";
+$bg__coming-img: $prefix+"comingsoon.jpg"; 
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg",
+    $prefix+"contact/contact-s3.jpg"; 
+$bg__error-img: $prefix+"error.jpg"; 
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__privacy: $prefix+"privacy.jpg"; 
 $section__classes:
+    "about",
+    "blog",
+    "books",
     "comingsoon",
+    "contact",
     "error",
+    "index",
     "privacy";
 $section__images:
-    $img__comingsoon,
-    $img__error,
-    $img__privacy;
+    $bg__about-img,
+    $bg__blog-img,
+    $bg__books-img,
+    $bg__coming-img,
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__index-img,
+    $bg__privacy;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow;
