@@ -9,9 +9,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" [ngClass]="navbarExt">
-        <ul class="navbar-nav text-end">
+        <ul class="navbar-nav text-end text-shadow fw-bold">
             <li class="nav-item" *ngFor="let item of Menu">
-                <a [routerLink]="item.path" class="nav-link">{{item.name}}</a>
+                <a [routerLink]="item.path" class="nav-link text-white">{{item.name}}</a>
             </li>
         </ul>
     </div>
